@@ -1,0 +1,180 @@
+
+.table-container {
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  
+  .search-container input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 250px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .search-container input:focus {
+    outline: none;
+    border-color: #007bff; 
+  }
+  
+
+  .college-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+
+  .college-table th {
+    background-color: #e6f2f5; 
+    color: #00819d; 
+    padding: 12px;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 2px solid #00b7dd;
+  }
+  
+  
+  .college-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+    font-size: 14px; 
+    color: #333; 
+  }
+  
+  
+  .college-name {
+    font-weight: bold;
+    font-size: 16px; 
+    color: #00819d; 
+    text-decoration: none;
+  }
+  
+  .college-name:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .featured {
+    background-color: #ff4d4d;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  
+  .college-actions .btn-danger {
+    background-color: #ff4d4d;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  
+  .college-actions .btn-danger:hover {
+    background-color: #e53a3a;
+  }
+  
+  
+  .college-actions .brochure-link {
+    color: #28a745; 
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .college-actions .brochure-link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .fees-info, .placement-info {
+    font-size: 14px;
+    color: #00819d; 
+  }
+  
+  .placement-info .compare-link, .fees-info .compare-link {
+    color: #ff8c00; 
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  .placement-info .compare-link:hover, .fees-info .compare-link:hover {
+    text-decoration: underline;
+  }
+  
+
+  .review-score {
+    font-weight: bold;
+    color: #ffcc00;
+    font-size: 16px;
+  }
+  
+  
+  .ranking-info {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .ranking-info img {
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  
+  
+  .compare-checkbox {
+    margin-top: 5px;
+  }
+  
+  
+  .college-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .college-table tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  
+  .college-table tr:hover {
+    background-color: #e6f2f5; 
+  }
+  
+.info-container {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .compare-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 5px;
+  }
+  
+
+  .compare-link {
+    color: #ff8c00; 
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .compare-link:hover {
+    text-decoration: underline;
+  }
+  
+  .college-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 4px; 
+  }
